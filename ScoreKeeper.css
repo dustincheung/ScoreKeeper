@@ -4,8 +4,10 @@ body{
 	text-align: center;
 }
 
-
-
 .buttonBlock{
 	margin-top: 20px;
+}
+
+.won{
+	color: green;
 }
