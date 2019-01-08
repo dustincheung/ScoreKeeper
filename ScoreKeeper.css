@@ -2,6 +2,7 @@ body{
 	max-width: 500px;
 	margin: auto;
 	text-align: center;
+	background-color: lightyellow;
 }
 
 .buttonBlock{
@@ -10,4 +11,19 @@ body{
 
 .won{
 	color: green;
+}
+
+#title{
+	font-family: 'Staatliches', cursive;
+	font-size: 80px;
+}
+
+#scoreBoard{
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+}
+
+#prompt{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
 }

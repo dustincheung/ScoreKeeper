@@ -6,6 +6,7 @@ var p1Display = document.querySelector("#p1Display");
 var p2Display = document.querySelector("#p2Display");
 var inputNum = document.querySelector("input");
 var maxDisplay = document.querySelector("#maxDisplay");
+var title = document.querySelector("#title");
 
 //vars that dictate if max score is reached
 var gameDone = false;
@@ -54,4 +55,16 @@ function resetScore(){
 	p2Display.classList.remove("won");
 	gameDone = false;
 }
+
+var isBlue = false;
+setInterval(function(){
+	if(!isBlue){
+		title.style.color = "red";
+		isBlue = true;
+	}else{
+		title.style.color = "black";
+		isBlue = false;
+	}
+	
+}, 1000);
 
